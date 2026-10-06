@@ -1,0 +1,31 @@
+{
+  "app_name": "Suraksha.ai Enterprise DRP & Threat Intelligence",
+  "app_type": "dashboard",
+  "archetype": "THE PERFORMANCE PRO / HIGH-CONTRAST SOC COMMAND CENTER",
+  "theme": "dark",
+  "forbidden_colors": ["#1B93A4", "#7351B7"],
+  "forbidden_fonts": ["space grotesk", "inter"],
+  "typography": {
+    "headings": {
+      "font_family": "Barlow Condensed, sans-serif",
+      "weights": ["700", "900"],
+      "letter_spacing": "tracking-tight"
+    },
+    "body": {
+      "font_family": "JetBrains Mono, DM Sans, monospace",
+      "weights": ["400", "500"]
+    }
+  },
+  "colors": {
+    "primary_anchor": "#0A0A0A",
+    "surface": "#121212",
+    "border": "#222222",
+    "accent_kinetic": "#FF3B30",
+    "accent_blue": "#007AFF",
+    "status_success": "#34C759",
+    "status_warning": "#FF9500",
+    "status_danger": "#FF3B30",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A0A0A0"
+  }
+}

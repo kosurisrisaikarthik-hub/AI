@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: #0c0c0c;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  font-family: "JetBrains Mono", "DM Sans", monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+.scanlines {
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.015),
+    rgba(255, 255, 255, 0.015) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+.grid-wash {
+  background-image:
+    linear-gradient(rgba(255, 59, 48, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 122, 255, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}
